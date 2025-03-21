@@ -1,0 +1,528 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad74a8f942c9ed439142302711aa85b, type: 3}
+  m_Name: Level_3
+  m_EditorClassIdentifier: 
+  width: 10
+  height: 10
+  moveAmount: 1000
+  targetScore: 50000
+  textures:
+  - {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  gemList:
+  - {fileID: 11400000, guid: 33f58f63fff6a3a4baff507a38180d86, type: 2}
+  - {fileID: 11400000, guid: d5fa4f4678e17234c818dfbd2bf9450b, type: 2}
+  - {fileID: 11400000, guid: 79386381dbb43d0449856c1edb661c44, type: 2}
+  - {fileID: 11400000, guid: 8f11a28c49d3d344eae92e67d3bb8bea, type: 2}
+  - {fileID: 11400000, guid: 627e52b6758e5434987a46620968bf29, type: 2}
+  levelGridPositionList:
+  - gemSO: {fileID: 0}
+    x: 0
+    y: 0
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 1
+    y: 0
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 2
+    y: 0
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 3
+    y: 0
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 4
+    y: 0
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 5
+    y: 0
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 6
+    y: 0
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 7
+    y: 0
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 8
+    y: 0
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 9
+    y: 0
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 0
+    y: 1
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 1
+    y: 1
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 2
+    y: 1
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 3
+    y: 1
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 4
+    y: 1
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 5
+    y: 1
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 6
+    y: 1
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 7
+    y: 1
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 8
+    y: 1
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 9
+    y: 1
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 0
+    y: 2
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 1
+    y: 2
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 2
+    y: 2
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 3
+    y: 2
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 4
+    y: 2
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 5
+    y: 2
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 6
+    y: 2
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 7
+    y: 2
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 8
+    y: 2
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 9
+    y: 2
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 0
+    y: 3
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 1
+    y: 3
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 2
+    y: 3
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 3
+    y: 3
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 4
+    y: 3
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 5
+    y: 3
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 6
+    y: 3
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 7
+    y: 3
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 8
+    y: 3
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 9
+    y: 3
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 0
+    y: 4
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 1
+    y: 4
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 2
+    y: 4
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 3
+    y: 4
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 4
+    y: 4
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 5
+    y: 4
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 6
+    y: 4
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 7
+    y: 4
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 8
+    y: 4
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 9
+    y: 4
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 0
+    y: 5
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 1
+    y: 5
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 2
+    y: 5
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 3
+    y: 5
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 4
+    y: 5
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 5
+    y: 5
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 6
+    y: 5
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 7
+    y: 5
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 8
+    y: 5
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 9
+    y: 5
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 0
+    y: 6
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 1
+    y: 6
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 2
+    y: 6
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 3
+    y: 6
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 4
+    y: 6
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 5
+    y: 6
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 6
+    y: 6
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 7
+    y: 6
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 8
+    y: 6
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 9
+    y: 6
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 0
+    y: 7
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 1
+    y: 7
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 2
+    y: 7
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 3
+    y: 7
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 4
+    y: 7
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 5
+    y: 7
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 6
+    y: 7
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 7
+    y: 7
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 8
+    y: 7
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 9
+    y: 7
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 0
+    y: 8
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 1
+    y: 8
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 2
+    y: 8
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 3
+    y: 8
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 4
+    y: 8
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 5
+    y: 8
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 6
+    y: 8
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 7
+    y: 8
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 8
+    y: 8
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 9
+    y: 8
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 0
+    y: 9
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 1
+    y: 9
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 2
+    y: 9
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 3
+    y: 9
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 4
+    y: 9
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 5
+    y: 9
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 6
+    y: 9
+    type: 0
+    texture: {fileID: 2800000, guid: 591d5d9cd95f84211b9341eeb282a8e8, type: 3}
+  - gemSO: {fileID: 0}
+    x: 7
+    y: 9
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 8
+    y: 9
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
+  - gemSO: {fileID: 0}
+    x: 9
+    y: 9
+    type: 1
+    texture: {fileID: 2800000, guid: bee78798515184a738b36415600c08ee, type: 3}
