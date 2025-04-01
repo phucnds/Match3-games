@@ -1,3 +1,5 @@
+
+#if UNITY_EDITOR
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -87,3 +89,5 @@ public class LevelMakerEditor : EditorWindow
         GUILayout.Space(20);
     }
 }
+
+#endif
